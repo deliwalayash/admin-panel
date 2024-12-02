@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="stylesheet" href="./assets/fonts/transfonter.org-20241129-125839/stylesheet.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body class="light-theme ">
+
+    <div class="main-cotainer">
+        <aside class="side-bar">
+            <div class="flex justify-btw side-bar-head">
+                <div class="flex">
+                    <div class="logo">
+                        <img src="./assets/images/download.svg" alt="" height="36px" width="36px">
+                    </div>
+                    <div class="all-center">
+                      <h2>VRISTO</h2>
+                    </div>
+                </div>
+                <div class="arrow-icon">
+                    <i class="ri-arrow-left-double-line"></i>
+                </div>
+            </div>
+
+        </aside>
+    </div>
+
+
+    <script src="./assets/js/jquery.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $(".arrow-icon").on("click", function () {
+                $(".side-bar").addClass("ml-260")
+              
+            })
+        })
+    </script>
+</body>
+
+</html>
