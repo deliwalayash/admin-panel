@@ -22,6 +22,7 @@
                     <div class="logo">
                         <img src="./assets/images/download.svg" alt="" height="36px" width="36px">
                     </div>
+                    
                     <div class="all-center">
                       <h2>VRISTO</h2>
                     </div>
@@ -30,8 +31,37 @@
                     <i class="ri-arrow-left-double-line"></i>
                 </div>
             </div>
-
         </aside>
+
+        <header class="main-header">
+            <div class="header-admin ml-260-2">
+                <div class="flex">
+                    <div class="display-none">
+                        <div class="logo">
+                            <img src="./assets/images/download.svg" alt="" height="36px" width="36px">
+                        </div>
+                        <div class="all-center">
+                          <h2>VRISTO</h2>
+                        </div>
+                    </div>
+                    <div class="menu-icon">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                    <div class="menu-icon-back">
+                        <i class="ri-calendar-line"></i>
+                    </div>
+                    <div class="menu-icon-back">
+                        <i class="ri-list-view"></i>
+                    </div>
+                    <div class="menu-icon-back">
+                        <i class="ri-chat-ai-line"></i>
+                    </div>
+                 
+                </div>
+               
+            </div>
+
+        </header>
     </div>
 
 
@@ -42,6 +72,7 @@
         $(document).ready(function () {
             $(".arrow-icon").on("click", function () {
                 $(".side-bar").addClass("ml-260")
+                $(".header-admin").removeClass("ml-260-2")
               
             })
         })
