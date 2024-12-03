@@ -167,3 +167,29 @@ body{
 .ml-260-2{
     margin-left:260px;
 }
+
+.all-center h2{
+    font-weight: 500;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.m-15{
+    margin-left: 15px;
+}
+
+.input{
+    padding: 5px;
+    outline-color: var(--seconday-color);
+    outline-style:solid 1px blue;
+}
+
+.user-icon img{
+    border-radius: 50%;
+}
+
+.user-icon img:hover{
+    filter: saturate(1.5);
+}

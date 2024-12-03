@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./assets/fonts/transfonter.org-20241129-125839/stylesheet.css">
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 </head>
 
 <body class="light-theme ">
@@ -22,9 +24,9 @@
                     <div class="logo">
                         <img src="./assets/images/download.svg" alt="" height="36px" width="36px">
                     </div>
-                    
+
                     <div class="all-center">
-                      <h2>VRISTO</h2>
+                        <h2>VRISTO</h2>
                     </div>
                 </div>
                 <div class="arrow-icon">
@@ -35,30 +37,60 @@
 
         <header class="main-header">
             <div class="header-admin ml-260-2">
-                <div class="flex">
-                    <div class="display-none">
-                        <div class="logo">
-                            <img src="./assets/images/download.svg" alt="" height="36px" width="36px">
+                <div class="flex justify-btw">
+                    <div class="flex">
+                        <div class="header-logo display-none flex">
+                            <div class="logo">
+                                <img src="./assets/images/download.svg" alt="" height="36px" width="36px">
+                            </div>
+                            <div class="all-center">
+                                <h2>VRISTO</h2>
+                            </div>
                         </div>
-                        <div class="all-center">
-                          <h2>VRISTO</h2>
+                        <div class="menu-icon">
+                            <i class="ri-menu-line"></i>
+                        </div>
+                        <div class="menu-icon-back">
+                            <i class="ri-calendar-line"></i>
+                        </div>
+                        <div class="menu-icon-back">
+                            <i class="ri-list-view"></i>
+                        </div>
+                        <div class="menu-icon-back">
+                            <i class="ri-chat-ai-line"></i>
+                        </div>
+                        <div class="all-center m-15">
+                            <input type="text" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome" class="input">
+                            
                         </div>
                     </div>
-                    <div class="menu-icon">
-                        <i class="ri-menu-line"></i>
+
+                   <div class="flex">
+                    <div class="menu-icon-back">
+                        <i class="ri-sun-line"></i>
+
                     </div>
                     <div class="menu-icon-back">
-                        <i class="ri-calendar-line"></i>
+                       <img src="./assets/images/EN.svg" alt="">
+
                     </div>
+
                     <div class="menu-icon-back">
-                        <i class="ri-list-view"></i>
+                        <i class="ri-message-line"></i>
                     </div>
+
                     <div class="menu-icon-back">
-                        <i class="ri-chat-ai-line"></i>
+                        <i class="ri-notification-line"></i>
                     </div>
-                 
+
+                    <div class="menu-icon-back user-icon">
+                        <img src="./assets/images/user-profile.jpeg" alt="" height="30px" width="30px">
+
+                    </div>
+                   </div>
+
                 </div>
-               
+
             </div>
 
         </header>
@@ -73,7 +105,14 @@
             $(".arrow-icon").on("click", function () {
                 $(".side-bar").addClass("ml-260")
                 $(".header-admin").removeClass("ml-260-2")
-              
+                $(".header-logo").removeClass("display-none")
+
+            })
+            $(".menu-icon").on("click", function () {
+                $(".side-bar").removeClass("ml-260")
+                $(".header-admin").addClass("ml-260-2")
+                $(".header-logo").addClass("display-none")
+
             })
         })
     </script>
