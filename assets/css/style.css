@@ -35,6 +35,7 @@ body{
     --primary-color: #0e1726;
     --secondary-color:#6b7280;
     --third-color:#e0e6ed;
+    --button-back-color:#ebebeb;
     --hover-color:#f3f5f8;
     --body-bg:#ffffff;
     --body-bg-2:#fafafa;
@@ -96,10 +97,10 @@ body{
 
 
 .arrow-icon{
-    font-size: 30px;
+    font-size: 14px;
     height: 36px;
     width: 36px;
-    background-color:var(--hover-color);
+    background-color:transparent;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,7 +131,7 @@ body{
 }
 
 .menu-icon{
-    font-size: 20px;
+    font-size: 14px;
     height: 36px;
     width: 36px;
     background-color:var(--hover-color);
@@ -149,7 +150,7 @@ body{
 }
 
 .menu-icon-back{
-    font-size: 20px;
+    font-size: 14px;
     height: 36px;
     width: 36px;
     background-color:var(--hover-color);
@@ -193,3 +194,72 @@ body{
 .user-icon img:hover{
     filter: saturate(1.5);
 }
+
+.scroll-bar{
+    height: calc(100vh - 72px);
+    overflow-y: scroll;
+}
+
+/* width */
+.scroll-bar::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  .scroll-bar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .scroll-bar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .scroll-bar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .btn{
+    border: none;
+    margin-bottom: .25rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: .375rem;
+    padding: .625rem;
+    --tw-text-opacity: 1;
+    color:var(--primary-color);
+    background-color:transparent;
+    font-weight: 600;
+    transition: var(--transition-main);
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.btn:hover{
+    background-color: var(--button-back-color);
+}
+
+.dropdown{
+    transition: var(--transition-main);
+}
+  
+
+  .gap-15{
+    gap: 15px;
+  }
+
+  .nav{
+      
+        padding: .625rem 5.25rem;
+  }
+
+  .rotate{
+    transform: rotate(180deg);
+  }
