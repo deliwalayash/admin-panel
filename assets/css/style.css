@@ -87,7 +87,7 @@ body{
 
 .main-cotainer{
     background-color: var(--body-bg-2);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
@@ -99,7 +99,7 @@ body{
 
 
 .arrow-icon{
-    font-size: 14px;
+    font-size: 20px;
     height: 36px;
     width: 36px;
     background-color:transparent;
@@ -120,12 +120,12 @@ body{
 }
 
 .ml-260{
-    margin-left: -260px;
+    left: -260px;
 }
 
 .main-header{
     background-color: white;
-    /* margin-left: 260px; */
+    
 }
 
 .header-admin{
@@ -337,6 +337,11 @@ body{
     .invoice{
         background-color: transparent;
         border: none;
-        /* margin: -10px; */
-        margin-top: -10px;
+        margin: -10px 6px;
+        /* margin-top: -10px; */
+        font-weight: 500;
+    }
+
+    .dropdown-2{
+        display: none;
     }

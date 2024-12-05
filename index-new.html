@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/css/new-style.css">
+
+    <link rel="stylesheet" href="./assets/fonts/transfonter.org-20241129-125839/stylesheet.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body class="light-theme">
+
+    <div class="main-container">
+
+        <aside class="side-bar">
+            <div class="side-bar-heading flex justify-btw">
+                <div class="flex gap-10">
+                    <div class="logo">
+                        <img src="./assets/images/download.svg" alt="" height="36px" width="36px">
+                    </div>
+
+                    <div class="vristro all-center">
+                        <p>VRISTO</p>
+                    </div>
+                </div>
+                <div class="arrow-icon">
+                    <i class="ri-arrow-left-double-line"></i>
+                </div>
+            </div>
+
+        </aside>
+
+    <div class="main-content">
+            <header class="main-heading">
+                <div>
+                    <div class="flex gap-10">
+                        <div class="logo">
+                            <img src="./assets/images/download.svg" alt="" height="36px" width="36px">
+                        </div>
+    
+                        <div class="vristro all-center">
+                            <p>VRISTO</p>
+                        </div>
+                    <ul>
+                        <li class="rounded all-center">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 12C2 8.22876 2 6.34315 3.17157 5.17157C4.34315 4 6.22876 4 10 4H14C17.7712 4 19.6569 4 20.8284 5.17157C22 6.34315 22 8.22876 22 12V14C22 17.7712 22 19.6569 20.8284 20.8284C19.6569 22 17.7712 22 14 22H10C6.22876 22 4.34315 22 3.17157 20.8284C2 19.6569 2 17.7712 2 14V12Z" stroke="currentColor" stroke-width="1.5"></path>
+                                <path opacity="0.5" d="M7 4V2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                                <path opacity="0.5" d="M17 4V2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                                <path opacity="0.5" d="M2 9H22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                            </svg>
+                            
+                        </li>
+                    </ul>
+                </div>
+
+            </header>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="./assets/js/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".arrow-icon").on("click", function () {
+                $(".side-bar").addClass("ml-260")
+                $(".header-admin").removeClass("ml-260-2")
+                $(".header-logo").removeClass("display-none")
+                $(".menu-icon").removeClass("display-none")
+
+            })
+            $(".menu-icon").on("click", function () {
+                $(".side-bar").removeClass("ml-260")
+                $(".header-admin").addClass("ml-260-2")
+                $(".header-logo").addClass("display-none")
+                $(".menu-icon").addClass("display-none")
+
+            })
+
+            $(".btn").on("click", function () {
+                $clicked = $(this).next(".dropdown");
+                $(".dropdown").not($clicked).removeClass("active")
+                $clicked.slideToggle()
+                $om = $(this).children(".arrow-right")
+                $(".arrow-right").not($om).removeClass("rotate")
+                $om.toggleClass("rotate")
+            })
+        })
+    </script>
+</body>
+
+</html>
