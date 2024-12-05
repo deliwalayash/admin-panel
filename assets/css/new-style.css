@@ -120,8 +120,12 @@ body{
 
 }
 
-.main-container .main-content{
+.ml-260{
     margin-left: 260px;
+}
+
+.l-260 {
+    left: -260px;
 }
 
 .main-heading{
@@ -169,4 +173,8 @@ body{
 
 .user-profile img:hover{
     filter: none;
+}
+
+.gap-10{
+    gap:10px
 }
