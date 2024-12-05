@@ -127,6 +127,7 @@ body{
 .main-heading{
     padding: 10px 20px;
     background-color: white;
+    width: 100%;
 }
 
 .rounded{
@@ -134,5 +135,38 @@ body{
     width: 36px;
     background-color: var(--hover-color);
     border-radius: 50% ;
+    margin:0 5px;
 
+}
+
+.search{
+    padding: 8px 16px 8px 36px;
+    width: 100%;
+    border-radius: .375rem;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(224 230 237 / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    padding: .5rem 1rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgb(14 23 38 / var(--tw-text-opacity));
+    outline: 2px solid #0000 !important;
+    outline-offset: 2px !important;
+}
+
+.rounded img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-profile img{
+    filter: grayscale(0.4);
+}
+
+.user-profile img:hover{
+    filter: none;
 }
