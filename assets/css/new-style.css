@@ -227,13 +227,16 @@ body{
     align-items: center;
     white-space: nowrap;
     border-radius: .375rem;
-    padding: .625rem;
+    padding: 10px 20px;
     border: none;
     justify-content: space-between;
     font-size: 17px;
     /* margin: 0px 20px; */
     overflow: hidden;
     transition: var(--transition-main);
+    background-color: transparent;
+    /* margin-left: 20px; */
+    padding-left: 30px;
   }
 
   .sub-menu li a{
@@ -248,7 +251,7 @@ body{
     
   }
 
-  .active{
+  .active .sub-menu{
     display: block;
   }
 
@@ -315,6 +318,7 @@ body{
     padding: .625rem;
    color:var(--primary-color);
     gap: 10px;
+    
 }
 
 .nav-item a svg{
