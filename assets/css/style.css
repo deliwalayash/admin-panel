@@ -82,7 +82,7 @@ body{
     top: 0;
     left: 0;
     width: 260px;
-    transition: var(--transition-main);
+    /* transition: var(--transition-main); */
 }
 
 .main-cotainer{
@@ -112,7 +112,7 @@ body{
 
 .arrow-icon:hover{
     background-color: var(--hover-color);
-    transition: var(--transition-main);
+    /* transition: var(--transition-main); */
 }
 
 .side-bar-head{
@@ -130,7 +130,7 @@ body{
 
 .header-admin{
     padding: 15px;
-    transition: var(--transition-main);
+    /* transition: var(--transition-main); */
 }
 
 .menu-icon{
@@ -239,7 +239,7 @@ body{
     color:var(--primary-color);
     background-color: var(--button-back-color);
     font-weight: 600;
-    transition: var(--transition-main);
+    /* transition: var(--transition-main); */
     border: 1px solid black;
     cursor: pointer;
     font-size: 16px;
@@ -269,7 +269,7 @@ body{
   }
 
   .rotate{
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
   }
 
   .li-color a{

@@ -27,6 +27,9 @@ body{
     justify-content: space-between;
 }
 
+.main-content{
+    transition: var(--transition-main);
+}
 .align-center{
     align-items: center;
 }
@@ -101,6 +104,7 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    transition: var(--transition-main);
 
 }
 
@@ -132,6 +136,7 @@ body{
     padding: 10px 20px;
     background-color: white;
     width: 100%;
+    transition: var(--transition-main);
 }
 
 .rounded{
@@ -177,4 +182,84 @@ body{
 
 .gap-10{
     gap:10px
+}
+
+.display-none{
+    display: none;
+}
+.menu{
+    transition: var(--transition-main);
+    }
+
+.perfect-scrollbar{
+   
+    overflow-y: scroll;
+    height: calc(100vh - 66px)
+}   
+
+/* width */
+.perfect-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  .perfect-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .perfect-scrollbar::-webkit-scrollbar-thumb {
+    background:transparent;
+    border-radius: 10px;
+    height: 200px;
+  }
+  
+  /* Handle on hover */
+  .perfect-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #c5c2c2;
+  }
+
+
+  .btn{
+    margin-bottom: .25rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    white-space: nowrap;
+    border-radius: .375rem;
+    padding: .625rem;
+    border: none;
+    justify-content: space-between;
+    font-size: 17px;
+    /* margin: 0px 20px; */
+    overflow: hidden;
+    transition: var(--transition-main);
+  }
+
+  .sub-menu li a{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: .625rem 2.25rem;
+  }
+
+  .sub-menu{
+    display: none;
+    
+  }
+
+  .active{
+    display: block;
+  }
+
+  .rotate{
+    transform: rotate(90deg);
+  }
+
+  .sub-menu li{
+    transition: var(--transition-main);
+  }
+
+  body{
+    --transition-main:all 0.3s linear;
 }
