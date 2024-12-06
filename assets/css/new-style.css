@@ -263,3 +263,62 @@ body{
   body{
     --transition-main:all 0.3s linear;
 }
+
+.app{
+    border: none;
+    
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    color:var(--primary-color);
+    background-color: var(--button-back-color);
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 14px;
+    
+  }
+
+  .chat svg{
+    height: 1.25rem;
+    width: 1.25rem;
+    color: #0e172680;
+    
+}
+
+.chat{
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.list-heading{
+    padding: 0.75rem 1.75rem;
+    background-color: #e0e6ed4d;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    font-size: 17px;
+}
+
+.nav-item a{
+    margin-bottom: .25rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /* justify-content: space-between; */
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: .375rem;
+    padding: .625rem;
+   color:var(--primary-color);
+    gap: 10px;
+}
+
+.nav-item a svg{
+    color: #5f6169;
+    margin-left: 20px;
+    align-items: center;
+}
