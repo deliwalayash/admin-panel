@@ -29,6 +29,7 @@ body{
 
 .main-content{
     transition: var(--transition-main);
+    
 }
 .align-center{
     align-items: center;
@@ -79,6 +80,9 @@ body{
     left: 0;
     width: 260px;
     transition: var(--transition-main);
+    --tw-shadow: 5px 0 25px 0 #5e5c9a1a;
+    --tw-shadow-colored: 5px 0 25px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .main-container{
@@ -326,3 +330,71 @@ body{
     margin-left: 20px;
     align-items: center;
 }
+
+.dvanimated{
+    padding: 24px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+*[class*="col-"] {
+    padding: 0 15px;
+  }
+
+
+.panel{
+    height: 100%;
+    border-radius: .375rem;
+    --tw-bg-opacity: 1;
+    background-color:var(--body-bg) ;
+    padding: 1.25rem;
+    --tw-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.mb-5 h5{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.text-lg p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: var(--primary-color);
+
+}
+
+.text-lg{
+    align-items: center;
+}
+
+.value{
+    color: var(--li-hover-color);
+}
+
+#chart {
+    max-width: 650px;
+    margin: 35px auto;
+  }
+
+  .pt-5 {
+    padding-top: 1.25rem;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+  
