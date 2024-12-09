@@ -356,6 +356,7 @@ body{
 .panel{
     height: 100%;
     border-radius: .375rem;
+    overflow: hidden;
     --tw-bg-opacity: 1;
     background-color:var(--body-bg) ;
     padding: 1.25rem;
@@ -386,8 +387,11 @@ body{
 }
 
 #chart {
-    max-width: 650px;
-    margin: 35px auto;
+    /* width: 700px;
+    height: 325px; */
+    /* margin: 35px auto; */
+    
+    
   }
 
   .pt-5 {
@@ -397,4 +401,6 @@ body{
 .mb-20{
     margin-bottom: 20px;
 }
+
+
   
