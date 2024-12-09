@@ -93,7 +93,7 @@ yaxis: {
     
 },
 grid: {
-  borderColor: isDark ? '#191e3a' : '#e0e6ed',
+  
     strokeDashArray: 5,
     xaxis: {
         lines: {

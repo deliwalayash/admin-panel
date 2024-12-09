@@ -349,7 +349,7 @@ body{
 .col-12 {width: 100%;}
 
 *[class*="col-"] {
-    padding: 0 15px;
+    padding: 10px 15px;
   }
 
 
@@ -401,6 +401,11 @@ body{
 .mb-20{
     margin-bottom: 20px;
 }
+
+.Daily-sales-details{
+    color: var(--secondary-color);
+}
+
 
 
   
