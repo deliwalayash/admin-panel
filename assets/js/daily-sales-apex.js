@@ -10,7 +10,7 @@ var options = {
             },
         ],
         chart: {
-            height: 160,
+            height: 145,
             type: 'bar',
             fontFamily: 'Nunito, sans-serif',
             toolbar: {
