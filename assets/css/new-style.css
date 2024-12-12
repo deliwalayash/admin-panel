@@ -672,8 +672,126 @@ body{
 
 .color-white{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.wallet-sec-square{
+    height: 120px;
+    width: 224px;
+    background-color: var(--body-bg);
+    padding: 20px;
+    margin-top: -50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px var(--body-bg-2);
+  
+}
+
+.wallet-btn{
+    width: 156px;
+    height: 32px;
+    background-color: var(--third-color);
+    border: none;
+    border-radius: 20px;
+    padding: 4px 20px;
+    box-shadow: 2px 2px var(--body-bg-2);
+    
+}
+
+.wallet-btn-text{
+    color: var(--secondary-color);
+}
+
+.pending-btn{
+    height:40px;
+    width: 120px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.view-details{
+    height:40px;
+    width: 120px;
+        border-radius: 20px;
+
+}
+.t-center{
+    text-align: center;
+}
+.color-white-2{
+    color: var(--body-bg-2);
+}
+
+.pad-15{
+    padding: 15px;
+}
+
+.bg-purple-2{
+    background-color: purple;
+}
+
+.bg-green-2{
+    background-color: #0ba360;
+}
+
+.nav-item:hover{
+    background-color: var(--hover-color);
+}
+
+table thead tr{
+    background-color: var(--hover-color);
+
+}
+
+.bg-violet{
+    background-color: #805dca;
+    border-radius: 20px;
+}
+
+.bg-green-3{
+    background-color: #0ba360;
+    border-radius: 20px;
+}
+
+.t-color{
+    color: var(--secondary-color);
+}
+
+.table-responsive{
+    overflow: auto;
+}
+
+.btn:hover{
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+.sub-menu li:hover{
+    background-color: var(--hover-color);
+}
+
+.top-btn{
+    height: 36px;
+    width: 36px;
+    background-color: lightblue;
+    border-radius: 50%;
+    border: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.primary-color{
+    color: var(--primary-color);
+}
+
+
+
 
 
 

@@ -69,7 +69,7 @@ var options = {
             },
         },
         
-        labels: ['Apparel', 'Sports', 'Others', 'test', 'tets1'],
+        labels: ['Apparel', 'Sports', 'Others', 'test', 'test1'],
         states: {
             hover: {
                 filter: {
