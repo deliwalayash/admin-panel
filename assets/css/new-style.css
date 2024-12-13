@@ -9,7 +9,7 @@
 }
 
 body{
-    --transition-main:all 0.3s linear;
+    --transition-main:all 1s linear;
 }
 .loader{
     width: 100%;
