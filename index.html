@@ -27,7 +27,7 @@
 
     <!-- aos animation link -->
 
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- fap icon link -->
 
@@ -42,12 +42,14 @@
 
     <!-- loader -->
 
-    <!-- <div class="loader">
+    <div class="loader">
         <img src="https://media2.giphy.com/media/xTk9ZvMnbIiIew7IpW/200w.gif?cid=6c09b952j05ae0yhg3gbtevkao783iineojf4bwlfb0pybur&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="">
-    </div> -->
+    </div>
 
     <div class="main-container">
-        <aside class="side-bar" data-aos="flip-up" data-aos-duration="3000">
+
+        
+        <aside class="side-bar" data-aos="fade-up" data-aos-duration="1500">
             <div class="side-bar-heading flex justify-btw">
                 <div class="flex ">
                     <div class="logo">
@@ -62,6 +64,7 @@
                     <i class="ri-arrow-left-double-line"></i>
                 </div>
             </div>
+           <section class="side-bar-section">
             <ul class="perfect-scrollbar">
                 <li class="menu active">
                     <button class="btn" type="button">
@@ -80,20 +83,22 @@
                         </div>
                         <span class="arrow-right rotate dashboard"><i class="ri-arrow-right-s-line"></i></span>
                     </button>
-                    <ul class="sub-menu">
-                        <li>
-                            <a href="">-Sales</a>
-                        </li>
-                        <li>
-                            <a href="">-Analytics</a>
-                        </li>
-                        <li>
-                            <a href="">-Finance</a>
-                        </li>
-                        <li>
-                            <a href="">-Crypto</a>
-                        </li>
-                    </ul>
+                    <section class="sub-bar-section">
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="">-Sales</a>
+                            </li>
+                            <li>
+                                <a href="">-Analytics</a>
+                            </li>
+                            <li>
+                                <a href="">-Finance</a>
+                            </li>
+                            <li>
+                                <a href="">-Crypto</a>
+                            </li>
+                        </ul>
+                    </section>
                 </li>
                 <li>
                     <h2 class="list-heading dashboard">Apps</h2>
@@ -498,8 +503,9 @@
                     </a>
                 </li>
             </ul>
+           </section>
         </aside>
-        <div class="main-content ml-260" data-aos="flip-up" data-aos-duration="3000">
+        <div class="main-content ml-260" data-aos="fade-up" data-aos-duration="1500">
             <header class="main-heading position w-80">
 
                 <div class="flex justify-btw gap-10">
@@ -657,7 +663,7 @@
                                             <p>Total Profit</p>
                                             <span class="value ">$10,840</span>
                                         </div>
-                                        <div id="chart" data-aos="fade-up" data-aos-duration="6000">
+                                        <div id="chart" data-aos="fade-up" data-aos-duration="800">
 
                                         </div>
                                     </div>
@@ -747,7 +753,8 @@
                                             </svg>
                                         </div>
                                     </div>
-                                    <div id="chart-3">
+                                    <div id="chart-3" data-aos="fade-down" data-aos-easing="linear"
+                                    data-aos-duration="3000">
 
                                     </div>
                                 </div>
@@ -756,7 +763,7 @@
                         </div>
                         <div class="col-xl-4 col-md-6 col-12 h-100">
                             <div class="">
-                                <div class="revenue panel">
+                                <div class="revenue panel ">
                                     <div class="justify-btw flex">
                                         <div class="mb-5">
                                             <h5 class="dashboard">Summary</h5>
@@ -1473,7 +1480,7 @@
 
                 })
                 $(window).on('load', function () {
-                    $(".loader").delay(600).fadeOut();
+                    $(".loader").delay(200).fadeOut();
                 });
 
 
