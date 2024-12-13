@@ -46,6 +46,10 @@ body{
     align-items: center;
 }
 
+.new-menu{
+    margin-right: 10px;
+}
+
 .light-theme{
     --primary-color: #0e1726;
     --secondary-color:#6b7280;
@@ -60,6 +64,8 @@ body{
     --li-hover-color:#3100ee;
     --tw-gradient-from: #7579ff;
     --tw-gradient-to: #b224ef;
+    --tw-shadow: 5px 0 25px 0 #5e5c9a1a;
+    --tw-shadow-colored: 5px 0 25px 0 var(--tw-shadow-color);
 }
 
 .dark-theme{
@@ -71,6 +77,8 @@ body{
     --body-bg-2:#060818; 
      background-color: var(--body-bg);
      transition: var(--transition-main);
+      --tw-shadow: 5px 0 25px 0 #5e5c9a1a;
+    --tw-shadow-colored: 5px 0 25px 0 var(--tw-shadow-color);
 
 }
 
@@ -93,9 +101,9 @@ body{
     left: 0;
     width: 260px;
     transition: var(--transition-main);
-    --tw-shadow: 5px 0 25px 0 #5e5c9a1a;
-    --tw-shadow-colored: 5px 0 25px 0 var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    box-shadow: 5px 0 25px 0 #5e5c9a1a;
+    
+    
 }
 
 .main-container{
@@ -765,7 +773,7 @@ table thead tr{
 }
 
 .table-responsive{
-    overflow: auto;
+    overflow-x: scroll;
 }
 
 .btn:hover{
@@ -792,6 +800,12 @@ html{
 .primary-color{
     color: var(--primary-color);
 }
+
+.h-100{
+    height: 100%;
+}
+
+
 
 
 

@@ -105,6 +105,16 @@
             display: block;
         }
 
+        .right-menu{
+            display: none;
+        }
+
+        @media (max-width:576px){
+            .vristro{
+                display: none;
+            }
+        }
+
     
         /* .header .container .header-main{
             flex-direction: column;
@@ -131,6 +141,7 @@
             
         } */
     
+        
     
         
       }
