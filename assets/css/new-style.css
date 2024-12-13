@@ -153,6 +153,9 @@ body{
 .l-260 {
     left: -260px;
 }
+.left-260{
+    left: 0px !important;
+}
 
 .main-heading{
     padding: 10px 20px;
@@ -681,7 +684,7 @@ body{
 
 .wallet-sec-square{
     height: 120px;
-    width: 224px;
+    width: 45%;
     background-color: var(--body-bg);
     padding: 20px;
     margin-top: -50px;
@@ -691,7 +694,7 @@ body{
 }
 
 .wallet-btn{
-    width: 156px;
+    width: 50%;
     height: 32px;
     background-color: var(--third-color);
     border: none;
