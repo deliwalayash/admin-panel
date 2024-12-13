@@ -79,6 +79,7 @@ body{
      transition: var(--transition-main);
       --tw-shadow: 5px 0 25px 0 #5e5c9a1a;
     --tw-shadow-colored: 5px 0 25px 0 var(--tw-shadow-color);
+    --li-hover-color:white;
 
 }
 
@@ -769,11 +770,11 @@ table thead tr{
 }
 
 .t-color{
-    color: var(--secondary-color);
+    color: var(--seconday-color);
 }
 
 .table-responsive{
-    overflow-x: scroll;
+    overflow: auto;
 }
 
 .btn:hover{
@@ -805,6 +806,9 @@ html{
     height: 100%;
 }
 
+.client-img img{
+    border-radius: 10px;
+}
 
 
 
