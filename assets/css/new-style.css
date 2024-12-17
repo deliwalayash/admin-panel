@@ -231,7 +231,7 @@ body{
 
 /* width */
 .perfect-scrollbar::-webkit-scrollbar {
-    width: 0px;
+    width: 5px;
   }
   
   /* Track */
@@ -241,16 +241,13 @@ body{
   
   /* Handle */
   .perfect-scrollbar::-webkit-scrollbar-thumb {
-    background:transparent;
-    border-radius: 10px;
-    height: 200px;
+    background: #888;
   }
   
   /* Handle on hover */
   .perfect-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #c5c2c2;
+    background: #555;
   }
-
 
   .btn{
     margin-bottom: .25rem;
@@ -812,6 +809,75 @@ html{
 .row{
     display: flex; 
     align-items: stretch;
+}
+
+
+/* login page css */
+
+.bg-gradient{
+    background-image: url(../images/bg-gradient.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;  
+}
+
+.bg-map{
+    background-image: url(../images/map.png);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-login{
+    width: 870px;
+    margin: auto;
+    background-color:rgb(255,255,255,0.5);
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+.sign-in{
+    width: 440px;
+    margin: auto;
+    
+}
+
+.sign-in h1{
+    color: #4361ee;   
+}
+
+.sign-in p{
+    color: #888ea8;
+    font-weight: 600;
+}
+
+.email{
+    width: 100%;
+    border-radius: .375rem;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(224 230 237 /0.5);
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 /0.5);
+    padding: .5rem 1rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgb(14 23 38 / var(--tw-text-opacity));
+    outline: 2px solid #0000 !important;
+    outline-offset: 2px !important;
+}
+
+.submit-btn{
+    padding: 10px;
+    width: 100%;
+    background: linear-gradient(90deg,#b224ef,#7579ff);
+    border-width: 0;
+    border-radius: 10px;
 }
 
 
