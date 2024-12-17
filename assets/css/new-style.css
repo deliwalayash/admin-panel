@@ -906,6 +906,29 @@ hr{
     box-shadow: 5px 5px 5px 3px #805dca;
 }
 
+.blinking-dot{
+    position: relative;
+}
+
+.blinking{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #0ba360;
+    top: 0;
+    right: 5px;
+    animation: ping 1s cubic-bezier(0,0,.2,1) infinite;
+}
+
+@keyframes ping {
+    50%,to {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+
 
   
   
