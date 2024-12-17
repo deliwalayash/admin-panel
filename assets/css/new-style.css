@@ -448,7 +448,7 @@ body{
 }
 
 .bg-purple svg{
-    color: #9a44f5;
+    color: #805dca;
 }
 
 .range{
@@ -739,7 +739,7 @@ body{
 }
 
 .bg-purple-2{
-    background-color: purple;
+    background-color: #805dca;
 }
 
 .bg-green-2{
@@ -830,9 +830,9 @@ html{
 }
 
 .container-login{
-    width: 870px;
+    width: 800px;
     margin: auto;
-    background-color:rgb(255,255,255,0.5);
+    background-color:rgb(255,255,255,0.75);
     padding: 50px;
     border-radius: 20px;
     position: relative;
@@ -875,14 +875,40 @@ html{
 .submit-btn{
     padding: 10px;
     width: 100%;
-    background: linear-gradient(90deg,#b224ef,#7579ff);
+    background: linear-gradient(135deg,rgb(239, 18, 98, 1),rgb(67, 97, 238, 1)100%);
     border-width: 0;
     border-radius: 10px;
+    color: white;
+}
+
+hr{
+    opacity: 0.5;
+    margin-bottom: 50px;
+}
+
+.social-media-icon-back{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg,rgb(239, 18, 98, 1),rgb(67, 97, 238, 1)100%);
+    border-width: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.box-shadow-purple{
+    box-shadow: 5px 5px 5px 3px #805dca;
 }
 
 
-
-
+  
+  
 
 
 
