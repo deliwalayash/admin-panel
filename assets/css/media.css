@@ -163,6 +163,21 @@
     .sign-in{
         width: 300px;
     }
+    .dvanimated{
+        padding: 0;
+    }
+    .main-heading{
+        padding: 10px;
+    }
+    .flex-nowrap{
+        flex-wrap: nowrap !important;
+    }
+    .rounded{
+        width: 35px;
+        height: 35px;
+    }
+   
+    
 }
         
     
